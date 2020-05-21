@@ -38,8 +38,8 @@ public class RunMe {
     private static TransactionLine createTransactionObject() {
         TransactionLine transaction = null;
         try {
-            transaction = new TransactionLine("5/20/2020", "LA PARISIENNE", "SQ *LA PARISIENNE", "10.46", "debit",
-                    "Restaurants", "Sapphire1527", "", "");
+            transaction = new TransactionLine("5/20/2020", "SNEAKY DINGO ENT.", "SQ *SNEAKY DINGO", "10.46", "debit",
+                    "Gifts", "BankOfAmerica1234", "", "");
         } catch (final ParseException e) {
             e.printStackTrace();
         }
